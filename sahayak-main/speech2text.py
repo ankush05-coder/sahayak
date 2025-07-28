@@ -1,7 +1,7 @@
 from google import genai
 # from google.colab import userdata
 # userdata.get('GOOGLE_API_KEY')
-client = genai.Client(api_key='AIzaSyDcZCLKTI10pj9KNmsn9TgTEQJcqO1K4Ck')
+# client = genai.Client(api_key='AIzaSyDcZCLKTI10pj9KNmsn9TgTEQJcqO1K4Ck')
 
 myfile = client.files.upload(file="hind.opus")
 
@@ -15,7 +15,7 @@ query=response.text
 from langchain_groq import ChatGroq
 lang = input("Enter the language you want to translate to (e.g., Hindi ,kanada): ")
 grade = input("Enter the grade level (e.g., 5th, 6th): ")
-llm=ChatGroq(model='gemma2-9b-it',api_key='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')
+# llm=ChatGroq(model='gemma2-9b-it',api_key='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')
 contents = f"""
 Based on the query: "{query}", provide a detailed explanation in a clear, simple, and easy-to-understand manner in {lang} language, suitable for a {grade}-level student. 
     based on the grade level select any one from below: 
