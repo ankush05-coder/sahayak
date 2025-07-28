@@ -1,0 +1,17 @@
+google-genai
+google-generativeai 
+Pillow
+streamlit
+fpdf
+dotenv
+pyaudio
+
+
+
+
+sounddevice 
+numpy 
+scipy 
+faster-whisper 
+
+
